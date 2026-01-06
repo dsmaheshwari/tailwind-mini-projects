@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Product Modal</title>
+  </head>
+  <body class="bg-slate-200">
+    <!-- Global Cotainer -->
+     <div class="flex items-center justify-center min-h-screen">
+      <div class="flex items-center md:items-start flex-col md:flex-row space-y-12 md:space-y-0 md:space-x-12 rounded-xl shadow-slate-500 p-16 bg-white">
+        <img src="images/headphone.png" alt="" class="aspect-square w-[250px] hover:scale-110 duration-200">
+        <div class="flex flex-col justify-between text-center md:text-left">
+          <div class="">
+            <span class="text-xs rounded-full bg-black text-white px-4 py-2">Free Shipping</span>
+            <h2 class="text-2xl mt-4 font-sans">Razor Kraken Kitty EDT Gaming Headset Quartz</h2>
+          </div>
+          <div class="mt-12 flex flex-col text-left justify-between text-center md:text-left">
+            <span class="line-through text-xs">₹7999.99</span>
+            <h3 class="font-semibold text-3xl">₹2999.99</h3>
+            <p class="text-xs text-slate-400 mt-2">The offer is valid till 15th January, 2025 11:59 p.m. or till the stock lasts!</p>
+            <div class="mt-4">
+              <div class="group h-16">
+                <button type="submit" class=" w-full bg-blue-700 rounded-lg border-b-8 border-b-blue-700 text-white group-hover:border-t-8 group-hover:border-b-0 group-hover:border-bg-blue-700 group-hover:border-t-blue-700 group-hover:border-t-blue-700 transition-all duration-150">
+                  <div class="px-8 py-4 duration-150 bg-blue-500 rounded-lg group-hover:bg-blue-700">
+                    Checkout
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="relative flex mt-8 items-center">
+              <span class="size-2 absolute bg-lime-600 rounded-full transition-all animate-ping"></span>
+              <span class="size-2 bg-lime-600 rounded-full"></span>
+              <h4 class="ml-2 font-semibold text-sm">50+ pcs. in stock!</h4>
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row mt-6 space-y-6 md:space-y-0 md:space-x-6 text-center md:text-left">
+            <button class="px-8 py-4 border border-1 border-gray-300 rounded-lg shadow-sm transition-all hover:shadow-xl hover:-translate-y-0.5 duration-150 group">
+              <div class="flex justify-center items-center space-x-3">
+                <img src="images/weight.png" alt="" class="size-5">
+                <span class="group-hover:font-semibold">Add to cart</span>
+              </div>
+            </button>
+            <button class="px-8 py-4 border border-1 border-gray-300 rounded-lg shadow-sm transition-all hover:shadow-xl hover:-translate-y-0.5 duration-150 group">
+              <div class="flex justify-center items-center space-x-3">
+                <img src="images/heart.png" alt="" class="size-5">
+                <span class="group-hover:font-semibold">Add to Wishlist</span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+     </div>
+
+  </body>
+</html>
